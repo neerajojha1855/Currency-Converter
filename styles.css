@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(150deg, #2581e9, #a231be);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.converter-card {
+    background: rgb(240, 240, 240);
+    padding: 30px;
+    width: 320px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    animation: slideIn 0.8s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #667eea;
+    outline: none;
+    box-shadow: 0 0 5px #667eea;
+}
+
+.currency-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 40%;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#swap_btn {
+    padding: 8px 12px;
+    border-radius: 50%;
+    border: none;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+#swap_btn:hover {
+    transform: rotate(180deg) scale(1.05);
+}
+
+#convert_btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 24px;
+    background: #764ba2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+#convert_btn:hover {
+    background: #5a3d91;
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
