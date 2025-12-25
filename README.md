@@ -22,6 +22,7 @@ A modern and responsive **Currency Converter Web Application** that provides **r
 - **JavaScript (ES6)** – Logic & API handling  
 - **REST API** – Live exchange rate data
 
+---
  
  ##🌐 Live Demo
  
