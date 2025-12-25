@@ -24,6 +24,6 @@ A modern and responsive **Currency Converter Web Application** that provides **r
 
 ---
  
- ##🌐 Live Demo
+ 🌐 Live Demo
  
  https://neerajojha1855.github.io/Currency-Converter/
